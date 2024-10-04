@@ -1,10 +1,20 @@
 import { ReactComponent as Logo } from "./assets/react.svg";
+import { ReactComponent as Edit } from "./assets/pencil.svg";
+import { ReactComponent as Delete } from "./assets/trash.svg";
 import "./App.css";
 
 function App() {
   return (
     <div>
-      <Logo />
+      <span>
+        <Logo />
+      </span>
+      <span>
+        <Edit />
+      </span>
+      <span>
+        <Delete />
+      </span>
     </div>
   );
 }
